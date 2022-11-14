@@ -28,8 +28,8 @@ const renderPokemon = async (pokemon) => {
 
   pokemonName.innerHTML = 'Carregando...';
   pokemonNumber.innerHTML = '';
-  //type1.innerHTML = '';
-  //type2.innerHTML = '';
+  type1.innerHTML = '';
+  type2.innerHTML = '';
 
   const data = await fetchPokemon(pokemon);
 
