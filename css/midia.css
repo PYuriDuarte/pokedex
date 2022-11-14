@@ -1,6 +1,6 @@
 @media screen and (max-width:775px){
   .pokemon_static{
-    width: max(8em);
+    width: 8em;
   }
   .tipo{
     width: 5em;
@@ -10,7 +10,7 @@
 }
 @media screen and (max-width:695px){
   .pokemon_static{
-    width: max(7.5em);
+    width: 7.5em;
   }
   .button p{
     font-size: 0.9em;
@@ -23,11 +23,34 @@
   }
 }
 @media screen and (max-width:600px){
+  .pokemon_static{
+    width: 6.5em;
+    top: 23.6%;
+    left: 67%;
+  }
   .button p{
     font-size: 0.8em;
   }
+  .title_type{
+    width: 2.8em;
+  }
 }
-.title_type{
-  width: 2.8em;
+@media screen and (max-width:515px){
+  .pokemon_static{
+    top: 20.5%;
+    left: 66%;
+  }
 }
-
+@media screen and (max-width:430px){
+  .pokemon_static{
+    top: 18%;
+    left: 65%;
+  }
+}
+@media screen and (max-width:320px){
+  .pokemon_static{
+    width: 5.5em;
+    top: 17%;
+    left: 64%;
+  }
+}
