@@ -128,36 +128,3 @@ main{
 .type2{
   display: none;
 }
-@media screen and (max-width:775px){
-  .pokemon_static{
-    width: max(8em);
-  }
-  .tipo{
-    width: 5em;
-    height: 1.5em;
-    font-size: 0.95em;
-  }
-}
-@media screen and (max-width:695px){
-  .pokemon_static{
-    width: max(7.5em);
-  }
-  .button p{
-    font-size: 0.9em;
-  }
-  .tipo{
-    margin-top: 0.2em;
-    width: 5em;
-    height: 1.5em;
-    font-size: 0.95em;
-  }
-}
-@media screen and (max-width:600px){
-  .button p{
-    font-size: 0.8em;
-  }
-}
-.title_type{
-  width: 2.8em;
-}
-
